@@ -76,6 +76,7 @@ while(i!=fx || j!=fy)
     console.log(p);
     if(x=='0')
     {
+        document.getElementById("snackbar").className="show";
        for(var k=0;k<count;k++)
         document.getElementById("0"+p[p.length-1-k]).className="animate__animated animate__flash";
         await(10);
