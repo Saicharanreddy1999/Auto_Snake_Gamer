@@ -71,7 +71,7 @@ while(i!=fx || j!=fy)
         document.getElementById("0"+p[p.length-1]).innerHTML="0";
     }
     
-    await delay(100);
+    await delay(250);
     p.push((String(i)+String(j)));
     console.log(p);
     if(x=='0')

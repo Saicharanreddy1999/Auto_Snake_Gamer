@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Snake</title>
         <link rel="stylesheet" href="snake.css">
         <link rel="stylesheet" href="animate.css"/>
@@ -11,10 +13,11 @@
     </head>
     
     <body>
-        <div id="snackbar">Game Over..</div>
+        <div id="snackbar"><h1>Game Over . .</h1><h2>Score:<h2><h2 id="score"></h2></div>
+        
         <div id="container">
             <div class="grid-container">
-
+            
                <button type="button" id="00" onclick="Access(this.id)" class="grid-item" ><p id="000">X</p></button>
                <button type="button" id="01" onclick="Access(this.id)" class="grid-item" ><p id="001"> </p></button>
                <button type="button" id="02" onclick="Access(this.id)" class="grid-item" ><p id="002"> </p></button>
